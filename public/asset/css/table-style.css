@@ -1,0 +1,483 @@
+
+
+    .nav-tabs {
+    background-color: #3fa52a54;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+a:hover {
+    color:#DAE5F6;
+    text-decoration: underline;
+}
+
+table{
+  overflow-x: scroll;
+}
+
+.py-5{
+  height: 427px;
+}
+
+footer.sticky-footer {
+    display: none;
+}
+
+#helpxc{
+    display: none;
+}
+
+
+@media (min-width:1024px) and (max-width:1680px) {
+  
+  .table {
+    font-size: .9rem;
+}
+
+
+#helpxc{
+    display: block;
+}
+
+  label{
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+ .form-control{
+     font-size: 12px;
+    
+
+
+  }
+
+  .form-control:disabled, .form-control[readonly] {
+    background-color: #FEFEFE;
+    border: 0.5px solid #EEECEC;
+    opacity: 1;
+    font-size: 13px;
+}
+
+
+  .modal-content {
+    width: 120%;
+    height: 679px;
+  }
+
+.row-col-1{
+  position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 77%;
+    height: 97%;
+}
+
+.form-group{
+  float: left;
+}
+
+#cxc-12s{
+  position: relative;
+    top: -17%;
+}
+
+#cxv-12s{
+  position: relative;
+    top: -17%;
+}
+
+#cx-13s{
+  position: relative;
+    top: -17%;
+}
+
+#cx-14s{
+  position: relative;
+    top: -3%;
+    left: 6%;
+}
+
+#cx-15s{
+  position: relative;
+    top: -36%;
+}
+
+#cx-16s{
+  position: relative;
+    top: -22%;
+}
+
+#acx-7s{
+    top: -17px;
+}
+
+#acs-19{
+ position: relative;
+    top: -14%;
+    
+}
+
+#acs-19a{
+    position: relative;
+    top: -1%;
+}
+
+#cxv-12as{
+    top: -262px;
+    left: 75%;
+}
+
+#col-23s{
+  position: relative;
+    top: -53%;
+    left: 75%;
+}
+
+
+
+.row-col-2{
+position: absolute;
+    top: 10px;
+    left: 79%;
+    width: 19%;
+    height: 86%;
+    background-color: aqua;
+}
+
+.row-a1{
+  border: 0.5px solid;
+    width: 112%;
+    padding: 58px 6px;
+    margin: 10px -9px;
+}
+
+.col-sm-6 {
+    float: left;
+    
+}
+
+#btn-secrch{
+    position: relative;
+    top: 30px;
+    color: #FFFFFF;
+}
+
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+   .table {
+    font-size: .9rem;
+}
+
+#bm-2{
+  display: none;
+}
+
+#bm-4{
+  display: none;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.4rem 0.4rem;
+}
+
+
+.modal-content {
+    left: 10px;
+    width: 91%;
+    height: 1260px;
+}
+
+.row-col-1 {
+    position: absolute;
+    top: 220px;
+    left: 5px;
+    width: 100%;
+    height: 97%;
+    font-size: 12px;
+}
+
+.row-col-1 input{
+  font-size: 12px;
+}
+
+
+
+.row-col-2 {
+    position: absolute;
+    top: 1px;
+    left: 0%;
+    width: 97%;
+    height: 17%;
+    background-color: aqua;
+}
+
+#label-con{
+  position: absolute;
+}
+
+.row-a1 {
+    border: 0.5px solid;
+    width: 31%;
+    float: left;
+    padding: 73px 17px;
+    margin: 28px 3px;
+}
+
+.form-group{
+  float: left;
+}
+
+/*.col-sm-3 {
+    flex: 0 0 25%;
+    width: 100%;
+   
+}*/
+
+.col-sm-2 {
+flex: 1 0 51%;
+    width: 50%;
+    max-width: 50%;
+}
+
+.col-sm-3 {
+    flex: 1 0 51%;
+    width: 50%;
+    max-width: 50%;
+}
+
+.col-sm-4 {
+    flex: 1 0 51%;
+    width: 50%;
+    max-width: 50%;
+}
+
+.col-sm-6 {
+   flex: 1 0 51%;
+    width: 50%;
+    max-width: 50%;
+}
+
+.col-sm-6 {
+    float: left;
+    
+}
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+  #bm-2{
+  display: none;
+}
+
+#bm-4{
+  display: none;
+}
+
+.table {
+    font-size: 0.7rem;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.4rem 0.4rem;
+}
+
+.modal-content {
+    left: 10px;
+    width: 91%;
+    height: 1280px;
+}
+
+.row-col-1 {
+    position: absolute;
+    top: 220px;
+    left: 5px;
+    width: 100%;
+    height: 97%;
+    font-size: 12px;
+}
+
+.row-col-1 input{
+  font-size: 12px;
+}
+
+
+
+.row-col-2 {
+    position: absolute;
+    top: 1px;
+    left: 0%;
+    width: 97%;
+    height: 17%;
+    background-color: aqua;
+}
+
+#label-con{
+  position: absolute;
+}
+
+.row-a1 {
+    border: 0.5px solid;
+    width: 31%;
+    float: left;
+    padding: 73px 17px;
+    margin: 28px 3px;
+}
+
+.form-group{
+  float: left;
+}
+
+/*.col-sm-3 {
+    flex: 0 0 25%;
+    width: 100%;
+   
+}*/
+
+.col-sm-2 {
+flex: 1 0 51%;
+    width: 50%;
+    max-width: 50%;
+}
+
+.col-sm-3 {
+    flex: 1 0 51%;
+    width: 50%;
+    max-width: 50%;
+}
+
+.col-sm-4 {
+    flex: 1 0 51%;
+    width: 50%;
+    max-width: 50%;
+}
+
+.col-sm-6 {
+   flex: 1 0 51%;
+    width: 50%;
+    max-width: 50%;
+}
+
+
+
+}
+
+
+
+@media (min-width:310px) and (max-width:576px) {
+#bm-2{
+  display: none;
+}
+
+#bm-4{
+  display: none;
+}
+
+.table {
+    font-size: 0.5rem;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.4rem 0.4rem;
+}
+
+
+.modal-content {
+    left: 10px;
+    width: 91%;
+    height: 1260px;
+}
+
+.row-col-1 {
+    position: absolute;
+    top: 220px;
+    left: 5px;
+    width: 100%;
+    height: 97%;
+    font-size: 12px;
+}
+
+.row-col-1 input{
+  font-size: 12px;
+}
+
+/*.col-sm-3 {
+    flex: 0 0 25%;
+    width: 100%;
+   
+}*/
+
+.row-col-2 {
+    position: absolute;
+    top: 1px;
+    left: 0%;
+    width: 97%;
+    height: 17%;
+    background-color: aqua;
+}
+
+#label-con{
+  position: absolute;
+}
+
+.row-a1 {
+    border: 0.5px solid;
+    width: 31%;
+    float: left;
+    padding: 73px 17px;
+    margin: 28px 3px;
+}
+
+.form-group{
+  float: left;
+}
+
+.col-sm-2 {
+
+    flex: 1 0 51%;
+    max-width: 50%;
+}
+
+.col-sm-3 {
+    flex: 1 0 51%;
+    max-width: 50%;
+}
+
+.col-sm-4 {
+    flex: 1 0 51%;
+    max-width: 50%;
+}
+
+.col-sm-6 {
+   flex: 1 0 51%;
+    max-width: 50%;
+}
+
+#col-15s {
+    position: relative;
+    top: 0%;
+}
+
+#col-18s {
+    position: relative;
+    top: 0%;
+}
+
+#col-20s {
+    position: relative;
+    top: 0%;
+}
+
+#col-22s {
+    position: relative;
+    top: 0%;
+}
+
+#col-23s {
+    position: relative;
+    top: -1%;
+    left: 1%;
+}
+
+
+}

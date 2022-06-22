@@ -1,0 +1,592 @@
+ #col-ed{
+
+    height: 253px;
+    border: 1px solid #0776C4;
+}
+
+        
+.p-5{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0rem!important;
+}
+
+
+#flip-btn{
+    display: none;
+}
+
+.mt-1{
+    position: relative;
+    top: 19px;
+    left: 0px;
+    width: 210px;
+    height: 228px;
+}
+
+.mt-2{
+    position: absolute;
+    top: 0%;
+    left: 43%;
+    width: 48px;
+    height: 244px;
+}
+
+.mt-2 #cam-1{
+    position: absolute;
+    top: 90px;
+    left: -96px;
+}
+
+#camera-stream {
+    position: relative;
+    top: 2px;
+    left: -11px;
+    width: 189px;
+    height: 226px;
+    background: rgba(0,0,0,0.2);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    object-fit: fill;
+    object-hight: 21px;
+}
+
+.mt-3, .my-3 {
+    top: -6%;
+    left: 56%;
+}
+
+
+.capture-camera {
+    position: absolute;
+    top: 98px;
+    left: -182%;
+    height: 22%;
+    width: 251px;
+    transform: rotate(-90deg);
+}
+
+.mt-3, .my-3 {
+   position: absolute;
+    top: -6%;
+    left: 56%;
+    width: 198px;
+    height: 234px;
+    /* margin-top: 1rem!important; */
+}
+
+.mt-3 #results img{
+    width: 198px;
+    height: 249px;
+}
+
+
+
+        video  {
+  width: 192px;
+  height: 192px;
+  /*background: rgba(0,0,0,0.2);*/
+  -webkit-transform: scaleX(-1); /* mirror effect while using front cam */
+  transform: scaleX(-1);         /* mirror effect while using front cam */
+}
+
+#canvas  {
+    position: relative;
+    top: -40px;
+    left: 1px;
+    width: 197px;
+    height: 252px;
+  -webkit-transform: scaleX(-1); /* mirror effect while using front cam */
+  transform: scaleX(-1);         /* mirror effect while using front cam */
+}
+
+.mta-1 {
+   position: relative;
+    top: 21px;
+    left: -1px;
+    height: 251px;
+    width: 195px;
+}
+
+#player{
+  position: relative;
+    top: 23px;
+    left: -1px;
+    width: 195px;
+    height: 229px;
+    /* background: rgba(0,0,0,0.2); */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    object-fit: cover;
+}
+
+.mta-2{
+    position: relative;
+    top: -283px;
+    left: 221px;
+    height: 251px;
+    width: 68px;
+    background: #149696;
+ }
+
+
+#capture{
+   position: absolute;
+    top: 93px;
+    left: -131%;
+    height: 26%;
+    width: 248px;
+    transform: rotate(-90deg);
+}
+
+.mta-3{
+  position: relative;
+    top: -534px;
+    left: 250px;
+    height: 251px;
+    width: 182px;
+    background: #149639;
+ }
+
+ .mta-3 img{
+    width: 100%;
+    height: 252px;
+ }
+
+#snapshot{
+   width: 185px;
+    height: 251px;
+}
+
+.panel {
+  padding-bottom: 10px;
+}
+
+#cam {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+#photo {
+  border: 1px;
+  border-color: black;
+  border-style: dashed;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    transform: rotate(-90deg);
+}
+
+
+
+video {
+    position: absolute;
+    top: -30px;
+    left: -13px;
+    width: 192px;
+    height: 225px;
+    /* background: rgba(0,0,0,0.2); */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    object-fit: cover;
+}
+
+
+
+
+@media (min-width:1024px) and (max-width:1680px) {
+
+
+    #canvas{
+    position: relative;
+    top: -40px;
+    width: 221px;
+    height: 251px; 
+}
+
+    .capture-camera {
+   position: absolute;
+    top: 91px;
+    left: -171%;
+    height: 26%;
+    width: 248px;
+     transform: rotate(-90deg);
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    transform: rotate(-90deg);
+}
+ 
+ .mt-1{
+    position: relative;
+    top: -4px;
+    left: -15px;
+    width: 221px;
+    height: 252px; 
+ }
+
+ .mt-2, .my-2 {
+    position: relative;
+    top: -295px;
+    left: 181px;
+    width: 52px;
+    height: 100%;
+    background: #F39494;
+    /* margin-top: 0.5rem!important; */
+}
+
+ .mt-3, .my-3 {
+    top: -6%;
+    left: 54%; 
+}
+
+.mt-3 #results img{
+    width: 226px;
+    height: 249px;
+}
+
+ #camera-stream{
+  position: relative;
+    top: 24px;
+    left: 8px;
+    width: 209px;
+    height: 226px;
+    background: rgba(0,0,0,0.2);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    object-fit: fill;
+    object-hight: 21px;
+   
+ }
+
+ .mta-1 {
+    position: relative;
+    top: 1px;
+    left: -14px;
+    height: 217px;
+    width: 210px;
+}
+
+ #player{
+  position: relative;
+    top: 23px;
+    left: -1px;
+    width: 212px;
+    height: 229px;
+    /* background: rgba(0,0,0,0.2); */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    object-fit: cover;
+}
+
+
+.mta-2 {
+    position: relative;
+    top: -249px;
+    left: 197px;
+    height: 251px;
+    width: 68px;
+    background: #149696;
+}
+
+#cam-2 {
+    position: absolute;
+    top: 36%;
+    left: -132%;
+}
+
+#capture{
+    position: absolute;
+    top: 93px;
+    left: -131%;
+    height: 26%;
+    width: 248px;
+    transform: rotate(-90deg);
+}
+
+
+#snapshot{
+    width: 214px;
+    height: 251px;
+}
+
+ .mta-3 {
+    position: relative;
+    top: -500px;
+    left: 266px;
+    height: 251px;
+    width: 215px;
+    background: #149639;
+}
+
+.mta-3 img {
+    width: 100%;
+    height: 100%;
+}
+  
+  video {
+    position: absolute;
+    top: -7px;
+    left: 0px;
+    width: 192px;
+    height: 225px;
+    /* background: rgba(0,0,0,0.2); */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    object-fit: cover;
+}
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+
+
+
+
+
+#col-ed {
+    margin: 10px;
+    min-width: 100%;
+    padding: 0px 0px;
+    height: 253px;
+    border: 1px solid #0776C4;
+}
+
+.mt-1 {
+    position: relative;
+    top: 18px;
+    left: 13px;
+    width: 221px;
+    height: 252px;
+}
+
+.mt-2, .my-2 {
+    position: relative;
+    top: -295px;
+    left: 196px;
+    width: 52px;
+    height: 100%;
+    background: #F39494;
+    /* margin-top: 0.5rem!important; */
+}
+
+.mt-3, .my-3 {
+    top: 0%;
+    left: 40%;
+    min-width: 60%;
+}
+
+.mt-3 #results img {
+    width: 100%;
+    height: 248px;
+    position: relative;
+    top: -14px;
+}
+
+.mta-1 {
+    position: relative;
+    top: 24px;
+    left: 14px;
+    height: 251px;
+    width: 195px;
+}
+
+
+.mta-2 {
+    position: relative;
+    top: -283px;
+    left: 238px;
+    height: 251px;
+    width: 68px;
+    background: #149696;
+}
+
+.mta-3 {
+    position: relative;
+    top: -534px;
+    left: 272px;
+    height: 251px;
+    width: 381px;
+    background: #149639;
+}
+
+.mta-3 img {
+    width: 100%;
+    height: 251px;
+}
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+
+    .mt-1 {
+    position: relative;
+    top: 19px;
+    left: 0px;
+    width: 210px;
+    height: 228px;
+}
+
+    .mt-2{
+    position: relative;
+    top: -103%;
+    left: 88px;
+    width: 164px;
+    height: 97%;
+    }
+
+    .mt-2 #cam-1{
+    position: absolute;
+    top: 35%;
+    left: -3%;
+    }
+
+
+    .mt-3 #results img {
+    width: 218px;
+    height: 249px;
+}
+
+.mta-1 {
+    position: relative;
+    top: 23px;
+    left: -1px;
+    height: 251px;
+    width: 195px;
+}
+
+.mta-2 {
+    position: relative;
+    top: -283px;
+    left: 221px;
+    height: 251px;
+    width: 68px;
+    background: #149696;
+}
+
+
+.mta-3 {
+    position: relative;
+    top: -534px;
+    left: 253px;
+    height: 251px;
+    width: 204px;
+    background: #149639;
+}
+
+
+.mta-3 img {
+    width: 100%;
+    height: 251px;
+}
+
+.col-sm-2 {
+
+    flex: 2 0 55.666667%;
+    max-width: 100.666667%;
+}
+
+.col-sm-3 {
+
+    flex: 1 0 51%;
+    max-width: 100%;
+}
+
+.col-sm-4 {
+    flex: 2 0 50.333333%;
+    max-width: 100.333333%;
+}
+
+.col-sm-6 {
+    flex: 1 0 51%;
+    /* flex: 0 0 50%; */
+    max-width: 100%;
+}
+
+
+}
+
+@media (min-width:310px) and (max-width:576px) {
+
+    #col-ed {
+    height: 471px;
+    border: 1px solid #0776C4;
+    /* padding: 0px 0px; */
+    /* margin: 132px 0px; */
+}
+
+.mt-1 {
+    position: relative;
+    top: 19px;
+    left: 0px;
+    width: 210px;
+    height: 228px;
+}
+
+ .mt-2 {
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    width: 48px;
+    height: 244px;
+}
+
+ .mt-3, .my-3 {
+    position: absolute;
+    top: 51%;
+    left: 0%;
+    width: 297px;
+    height: 234px;
+    /* margin-top: 1rem!important; */
+}
+
+.mt-3 #results img {
+    width: 294px;
+    height: 211px;
+}
+
+.mta-2 {
+    position: relative;
+    top: -283px;
+    left: 211px;
+    height: 251px;
+    width: 68px;
+    background: #149696;
+}
+
+.mta-2 #cam-2 {
+    position: absolute;
+    top: 97px;
+    left: -87px;
+}
+
+.mta-3 {
+    position: relative;
+    top: -285px;
+    left: -12px;
+    height: 219px;
+    width: 263px;
+    background: #149639;
+}
+
+.mta-3 img {
+    width: 111%;
+    height: 218px;
+}
+
+}

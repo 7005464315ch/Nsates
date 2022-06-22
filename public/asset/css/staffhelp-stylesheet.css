@@ -1,0 +1,105 @@
+
+  .nav-tabs {
+    background-color: #3fa52a54;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.col-md-8 {
+position: relative;
+    width: 106%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+a:hover {
+    color:#DAE5F6;
+    text-decoration: underline;
+}
+
+  @media (min-width: 768px){
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 103.666667%;
+    max-width: 102.666667%;
+}
+
+#xcgrup-1{
+   width: 36%;
+}
+
+.form-group {
+   float: left;
+}
+
+#xcgrup-2{
+    margin-left: 46%;
+}
+
+
+}
+
+@media (min-width:1024px) and (max-width:1680px) {
+  
+  .table {
+    font-size: .7rem;
+}
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+   .table {
+    font-size: .7rem;
+}
+
+#bm-2{
+  display: none;
+}
+
+#bm-4{
+  display: none;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.4rem 0.4rem;
+}
+
+}
+
+
+@media (min-width:576px) and (max-width:768px) {
+  #bm-2{
+  display: none;
+}
+
+#bm-4{
+  display: none;
+}
+
+.table {
+    font-size: 0.7rem;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.4rem 0.4rem;
+}
+}
+
+@media (min-width:310px) and (max-width:576px) {
+#bm-2{
+  display: none;
+}
+
+#bm-4{
+  display: none;
+}
+
+.table {
+    font-size: 0.5rem;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.4rem 0.4rem;
+}
+
+}

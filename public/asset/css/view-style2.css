@@ -1,0 +1,18 @@
+/*.ng-scope{
+	background-image: linear-gradient(to right, #F1EDD4,#8B273C 50%, #CFCFF8);
+}*/
+
+/*.text-gray-800 {
+    color: #FCFCFD!important;
+}*/
+
+.bg-gradient-danger {
+    background-color: #a9bced;
+    background-image: linear-gradient(180deg,#971256 10%,#829095 100%);
+    background-size: cover;
+}
+
+/*.xcim{
+    position: absolute;
+    overflow: auto;
+}*/

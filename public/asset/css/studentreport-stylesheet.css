@@ -1,0 +1,17 @@
+.table{
+font-size: 0.8rem;
+
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #042d56;
+    border-color: #021ef7;
+    
+}
+
+.table td, .table th {
+    padding: 0.55rem;
+    
+}
+
